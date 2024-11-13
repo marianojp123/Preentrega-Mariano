@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #000B58
+  #003161
+  #006A67
+  #FFF4B7;
+  color: #333;
+  center
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Colores de Indice */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: em;
+}
+
+
+/* CATALOGO DE PRODUCTOS DE VIDEOJUEGOS */
+.productos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: space-between;
+}
+
+.producto {
+    background-color: rgb(202, 195, 195);
+    width:  30%;
+    margin-bottom:20px ;
+    padding: 15px;
+    flex-wrap: wrap;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(36, 23, 23);
+    box-sizing: border-box;
+} 
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+h4 {
+  background-color: #504545;
+  color: #ffffff;
+  font-size: 20px;
+  font-style:italic; 
+  font-family: Arial, Helvetica, sans-serif;
+  background-position:
+}
+
+h5 {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  font-style:initial; 
+  font-family: Arial, Helvetica, sans-serif;
+  background-position: center
+  
+}
+
+.box {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 20px;
+  font-style:italic; 
+  font-family: Arial, Helvetica, sans-serif;
+  background-position:
+}
+
+
+
+/* Adaptacion en otras pantallas */
+/* 320 CELULARES, 768PX TABLET 1024PX COMPUTADORA */
+
+@media (max-width:1024px){
+  .producto { 
+      width: 45%;
+  } 
+}
+
+
+/* media query para pantalla pequeña */
+@media (max-width:520px){
+  .producto { 
+      width: 90%;
+  } 
+
+  header {
+      padding : 15px ; 
+  }
+
+  .contenedor-productos{
+      padding : 10px ; 
+      width: 35%;
+  }
+}
+
+footer .RSocial {
+  width: 40px; 
+  margin: 5px; 
+  align-items: center;
+  
+}

@@ -1,0 +1,38 @@
+#reseñas {
+    padding: 20px;
+    background-color: #f4f4f9;
+  }
+  
+  .reviews-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .review {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .review p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+
+  /* Estilo responsive para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .reviews-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .reviews-container {
+      grid-template-columns: 1fr;
+    }
+  }
