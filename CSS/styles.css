@@ -60,7 +60,13 @@ section {
     box-sizing: border-box;
 } 
 
-
+.producto button {
+  background: #333; /* Fondo oscuro */
+  color: white; /* Texto blanco */
+  border: none; /* Sin bordes */
+  padding: 10px 15px; /* Espaciado interno */
+  cursor: pointer; /* Mano al pasar por encima */
+}
 
 footer {
   background-color: #333;
